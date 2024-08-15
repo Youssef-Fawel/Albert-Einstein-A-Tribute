@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Albert Einstein: A Tribute to Genius</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/ScrollTrigger.min.js"></script>
+    <link rel="icon" href="Photos/einstein.png" type="image/x-icon"> 
+
+</head>
+
+<body>
+
+    <header class="hero">
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#qualities">Qualities</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#legacy">Legacy</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+            </ul>
+        </nav>
+
+        <div class="hero-content">
+            <div class="equation-wrapper">
+                <span class="equation-part">E</span>
+                <span class="equation-part">=</span>
+                <span class="equation-part">m</span>
+                <span class="equation-part">c</span>
+                <span class="equation-part">²</span>
+            </div>
+            <h1 class="glitch" data-text="Albert Einstein">Albert Einstein</h1>
+            <p class="subtitle">The Genius Who Reshaped Our Universe</p>
+        </div>
+        
+
+    </header>
+
+    <main>
+        <section id="about" class="about">
+            <div class="container">
+                <h2 class="section-title">The Man Behind the Equations</h2>
+                <div class="content-wrapper">
+                    <div class="image-wrapper">
+                        <img src="Photos/all.png" alt="Albert Einstein" class="portrait">
+                    </div>
+                    <div class="text-content">
+                        <p>Albert Einstein (1879-1955) was a theoretical physicist who revolutionized our understanding of space, time, gravity, and the universe. Born in Ulm, Germany, Einstein showed an early curiosity for the mysteries of science and mathematics.</p>
+                        <p>His groundbreaking work on the theory of relativity, quantum mechanics, and other fundamental concepts in physics earned him the Nobel Prize in 1921 and cemented his place as one of the most influential scientists of the 20th century.</p>
+                        <blockquote>"Imagination is more important than knowledge. Knowledge is limited. Imagination encircles the world."</blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="qualities" class="qualities">
+            <div class="container">
+                <h2 class="section-title">Admirable Qualities</h2>
+                <div class="qualities-grid">
+                    <div class="quality-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm3-10h-2v-2h2v2zm0-4h-2V7h2v2z" />
+                        </svg>
+                        <h3>Persistence</h3>
+                        <p>Despite facing initial rejection from academia, Einstein persevered in his research, eventually revolutionizing our understanding of the universe.</p>
+                    </div>
+                    <div class="quality-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm3-10h-2v-2h2v2zm0-4h-2V7h2v2z" />
+                        </svg>
+                        <h3>Humility</h3>
+                        <p>Despite his genius, Einstein remained humble and often expressed awe at the mysteries of the universe.</p>
+                    </div>
+                    <div class="quality-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm3-10h-2v-2h2v2zm0-4h-2V7h2v2z" />
+                        </svg>
+                        <h3>Pacifism</h3>
+                        <p>Einstein was a committed pacifist, using his fame to advocate for peace and speak out against war.</p>
+                    </div>
+                    <div class="quality-item">
+                        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm0 18c-4.4 0-8-3.6-8-8s3.6-8 8-8 8 3.6 8 8-3.6 8-8 8zm3-10h-2v-2h2v2zm0-4h-2V7h2v2z" />
+                        </svg>
+                        <h3>Humanitarian</h3>
+                        <p>He was deeply concerned with social issues and human rights, often speaking out against racism and inequality.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements">
+            <div class="container">
+                <h2 class="section-title">Revolutionary Insights</h2>
+                <div class="achievements-grid">
+                    <div class="achievement-item">
+                        <div class="achievement-icon">E=mc²</div>
+                        <h3>Mass-Energy Equivalence</h3>
+                        <p>Einstein's most famous equation, demonstrating that energy and mass are interchangeable.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🌌</div>
+                        <h3>Theory of Relativity</h3>
+                        <p>Fundamentally changed our understanding of space, time, and gravity.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">💡</div>
+                        <h3>Photoelectric Effect</h3>
+                        <p>Explained how light behaves as both a particle and a wave, laying groundwork for quantum theory.</p>
+                    </div>
+                    <div class="achievement-item">
+                        <div class="achievement-icon">🏆</div>
+                        <h3>Nobel Prize in Physics</h3>
+                        <p>Awarded in 1921 for his services to Theoretical Physics and discovery of the law of the photoelectric effect.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="legacy" class="legacy">
+            <div class="container">
+                <h2 class="section-title">A Lasting Impact</h2>
+                <p>Einstein's work continues to shape modern physics and our understanding of the cosmos. His theories have been confirmed through numerous experiments and observations, including the detection of gravitational waves in 2015.</p>
+                <p>Beyond his scientific contributions, Einstein was a humanitarian and peace activist. He used his fame to speak out against nuclear weapons and advocated for civil rights and freedom of expression.</p>
+                <div class="quote-carousel">
+                    <div class="quote">
+                        <p>"The important thing is not to stop questioning. Curiosity has its own reason for existing."</p>
+                    </div>
+                    <div class="quote">
+                        <p>"Life is like riding a bicycle. To keep your balance, you must keep moving."</p>
+                    </div>
+                    <div class="quote">
+                        <p>"The world is a dangerous place to live; not because of the people who are evil, but because of the people who don't do anything about it."</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="gallery">
+            <div class="container">
+                <h2 class="section-title">Capturing Moments of Genius</h2>
+                <div class="gallery-grid">
+                    <div class="gallery-item">
+                        <img src="Photos/1.png" alt="Einstein giving a lecture">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/2.png" alt="Einstein with his equations">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/3.png" alt="Einstein at Princeton">
+                    </div>
+                    <div class="gallery-item">
+                        <img src="Photos/4.png" alt="Einstein in deep thought">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Albert Einstein Tribute. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
